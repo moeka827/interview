@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>インタビュー：SD学科を選んだ理由</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .header p {
+        color: #666;
+        font-size: 14px;
+      }
+      .chat-container {
+        margin-top: 20px;
+      }
+      .chat-line {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        opacity: 0; /* 初期表示は非表示 */
+      }
+      .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      .moe .icon {
+        order: -1;
+      }
+      .message {
+        max-width: 70%;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+      }
+      .moe .message {
+        background-color: #d3eaff;
+        border-radius: 10px 10px 10px 0;
+      }
+      .mio .message {
+        background-color: #ffe9d6;
+        border-radius: 10px 10px 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>インタビュー：SD学科を選んだ理由と大学生活の変化</h1>
+        <p>質問者：もえか / 回答者：みお</p>
+      </header>
+
+      <!-- 会話部分 -->
+      <div class="chat-container">
+        <!-- もえかのメッセージ -->
+        <div class="chat-line moe">
+          <img src="moeka.jpg" alt="もえかアイコン" class="icon" />
+          <div class="message">
+            <p><strong>もえか：</strong> どのようなモチベーションでSDを選んだのですか？</p>
+          </div>
+        </div>
+        
+        <!-- みおのメッセージ -->
+        <div class="chat-line mio">
+          <img src="mio.jpg" alt="みおアイコン" class="icon" />
+          <div class="message">
+            <p><strong>みお：</strong> 元々理系で、やりたかったことが経営系だったのですが、経営学科に行くのはちょっと違ったので、この学科のマネジメントを学びたくてSD学科を選びました。</p>
+          </div>
+        </div>
+
+        <!-- 他のメッセージ -->
+        <div class="chat-line moe">
+          <img src="moeka.jpg" alt="もえかアイコン" class="icon" />
+          <div class="message">
+            <p><strong>もえか：</strong> 高校から大学になり、大学の授業を受けてみてどうでしたか？</p>
+          </div>
+        </div>
+        
+        <div class="chat-line mio">
+          <img src="mio.jpg" alt="みおアイコン" class="icon" />
+          <div class="message">
+            <p><strong>みお：</strong> 最初からマネジメントを選ぶのではなく、クリエーションやテクノロジーも勉強しないといけなくて、思ったより大変でした。</p>
+          </div>
+        </div>
+        
+        <!-- 続けて他のメッセージ -->
+        <div class="chat-line moe">
+          <img src="moeka.jpg" alt="もえかアイコン" class="icon" />
+          <div class="message">
+            <p><strong>もえか：</strong> どういうところが特に大変でしたか？</p>
+          </div>
+        </div>
+        
+        <div class="chat-line mio">
+          <img src="mio.jpg" alt="みおアイコン" class="icon" />
+          <div class="message">
+            <p><strong>みお：</strong> 絵を描くのが苦手なので、クリエーションが特に大変に感じました。</p>
+          </div>
+        </div>
+        
+        <div class="chat-line moe">
+          <img src="moeka.jpg" alt="もえかアイコン" class="icon" />
+          <div class="message">
+            <p><strong>もえか：</strong> 高校から大学に入ってどう変わりましたか？</p>
+          </div>
+        </div>
+        
+        <div class="chat-line mio">
+          <img src="mio.jpg" alt="みおアイコン" class="icon" />
+          <div class="message">
+            <p><strong>みお：</strong> バイトを始めました。塾と居酒屋をやってます。また、高校と違って課題がたくさんあるので、授業外学習をする時間が高校より増えたと感じます。</p>
+          </div>
+        </div>
+        
+        <div class="chat-line moe">
+          <img src="moeka.jpg" alt="もえかアイコン" class="icon" />
+          <div class="message">
+            <p><strong>もえか：</strong> みおさんが1番好きな授業はなんですか？</p>
+          </div>
+        </div>
+        
+        <div class="chat-line mio">
+          <img src="mio.jpg" alt="みおアイコン" class="icon" />
+          <div class="message">
+            <p><strong>みお：</strong> CADです。できた時は楽しいと感じますが、できない時は大変です。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GSAP and ScrollTrigger for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      // チャットメッセージが現れるアニメーション
+      gsap.fromTo(
+        ".chat-line",
+        { opacity: 0, y: 30 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.6,
+          stagger: 0.2,
+          scrollTrigger: {
+            trigger: ".chat-container",
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "play none none reverse",
+          },
+        }
+      );
+    </script>
+  </body>
+</html>
